@@ -2,7 +2,8 @@
 # Usage: pip install -r requirements.txt
 
 # Base ----------------------------------------
-
+numpy==1.23.5
+paho-mqtt==2.1.0
 
 # StrongSORT ------------------------------------------------------------------
 easydict
@@ -13,6 +14,9 @@ gdown
 # ByteTrack -------------------------------------------------------------------
 lap
 git+https://github.com/samson-wang/cython_bbox.git@9badb346a9222c98f828ba45c63fe3b7f2790ea2
+# dlib==
+# cvzone==1.6.1
+cython-bbox==0.1.5
 
 # OCSORT ----------------------------------------------------------------------
 filterpy
